@@ -1,0 +1,85 @@
+[
+  {
+    "id": "R1",
+    "if": [
+      {"gejala": "GJL01", "cf": 0.4},
+      {"gejala": "GJL02", "cf": 0.8},
+      {"gejala": "GJL03", "cf": 0.4},
+      {"gejala": "GJL04", "cf": 0.8}
+    ],
+    "then": "PY01",
+    "cf": 0.8
+  },
+  {
+    "id": "R2",
+    "if": [
+      {"gejala": "GJL07", "cf": 0.4},
+      {"gejala": "GJL08", "cf": 0.4}
+    ],
+    "then": "PY01",
+    "cf": 0.8
+  },
+  {
+    "id": "R3",
+    "if": [
+      {"gejala": "GJL01", "cf": 0.4},
+      {"gejala": "GJL05", "cf": 0.8},
+      {"gejala": "GJL03", "cf": 0.4},
+      {"gejala": "GJL06", "cf": 0.8}
+    ],
+    "then": "PY01",
+    "cf": 0.8
+  },
+  {
+    "id": "R4",
+    "if": [
+      {"gejala": "GJL09", "cf": 0.8},
+      {"gejala": "GJL10", "cf": 0.8},
+      {"gejala": "GJL11", "cf": 0.6}
+    ],
+    "then": "PY02",
+    "cf": 0.8
+  },
+  {
+    "id": "R5",
+    "if": [
+      {"gejala":"GJL10", "cf": 0.8},
+      {"gejala": "GJL12", "cf": 0.4},
+      {"gejala": "GJL13", "cf": 0.6}
+    ],
+    "then": "PY02",
+    "cf": 0.65
+  },
+  {
+    "id": "R6",
+    "if": [
+      {"gejala": "GJL14", "cf": 0.8},
+      {"gejala": "GJL15", "cf": 0.4},
+      {"gejala": "GJL16", "cf": 0.4}
+    ],
+    "then": "PY03",
+    "cf": 0.8
+  },
+  {
+    "id": "R7",
+    "if": [
+      {"gejala": "GJL15", "cf": 0.8},
+      {"gejala": "GJL18", "cf": 0.4},
+      {"gejala": "GJL12", "cf": 0.8},
+      {"gejala": "GJL10", "cf": 0.8}
+    ],
+    "then": "PY03",
+    "cf": 0.65
+  },
+  {
+    "id": "R8",
+    "if": [
+      {"gejala": "GJL16", "cf": 0.4},
+      {"gejala": "GJL14", "cf": 0.8},
+      {"gejala": "GJL17", "cf": 0.4},
+      {"gejala": "GJL10", "cf": 0.8}
+    ],
+    "then": "PY03",
+    "cf": 0.7
+  }
+]
